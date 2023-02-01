@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SafeAreaThemedView Renders Snapshot 1`] = `
+<View
+  className=""
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "bottom",
+        "left",
+        "right",
+        "top",
+      ]
+    }
+  >
+    <View />
+  </RNCSafeAreaView>
+</View>
+`;

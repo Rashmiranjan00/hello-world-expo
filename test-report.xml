@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\screens\tests\WelcomeScreen.test.tsx">
+    <testCase name="WelcomeScreen Snapshot Renders on light theme" duration="10"/>
+    <testCase name="WelcomeScreen Snapshot Renders on dark theme" duration="2"/>
+  </file>
+</testExecutions>

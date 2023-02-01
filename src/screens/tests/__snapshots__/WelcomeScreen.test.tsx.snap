@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeScreen Snapshot Renders on dark theme 1`] = `
+<View
+  className=""
+>
+  <Text
+    className=""
+    type="primary"
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`WelcomeScreen Snapshot Renders on light theme 1`] = `
+<View
+  className=""
+>
+  <Text
+    className=""
+    type="primary"
+  >
+    Hello World
+  </Text>
+</View>
+`;

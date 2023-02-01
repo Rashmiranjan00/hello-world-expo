@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Renders Snapshot 1`] = `
+<Text
+  className=""
+  type="primary"
+>
+  Text
+</Text>
+`;

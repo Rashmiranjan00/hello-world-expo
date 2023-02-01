@@ -1,0 +1,124 @@
+{
+  "cli": {
+    "requireCommit": false
+  },
+  "build": {
+    "production": {
+      "node": "16.14.2",
+      "releaseChannel": "production",
+      "developmentClient": false,
+      "distribution": "store",
+      "ios": {
+        "cocoapods": "1.11.2"
+      },
+      "cache": {
+        "key": "production-v45-a"
+      },
+      "env": {
+        "VERSION": "1.0.0",
+        "IOS_BUNDLE_IDENTIFIER": "com.helloworld.helloworld",
+        "IOS_BUILD_NUMBER": "1",
+        "ANDROID_PACKAGE": "com.helloworld.helloworld",
+        "ANDROID_VERSION_CODE": "1",
+        "GOOGLE_SERVICES_FILE": "google-services.json",
+        "APP_NAME": "HelloWorld",
+        "APP_SLUG": "helloworld",
+        "APP_CONFIG_BACKEND_API": "https://api.helloworld.com/api/v1",
+        "EXPO_ACCOUNT_OWNER": "@rashmiranjan.indianic"
+      }
+    },
+    "uat": {
+      "node": "16.14.2",
+      "releaseChannel": "uat",
+      "developmentClient": false,
+      "distribution": "store",
+      "ios": {
+        "cocoapods": "1.11.2"
+      },
+      "cache": {
+        "key": "uat-v45-a"
+      },
+
+      "env": {
+        "VERSION": "1.0.0",
+        "IOS_BUNDLE_IDENTIFIER": "com.helloworld.uat",
+        "IOS_BUILD_NUMBER": "1",
+        "ANDROID_PACKAGE": "com.helloworld.uat",
+        "ANDROID_VERSION_CODE": "1",
+        "GOOGLE_SERVICES_FILE": "google-services.json",
+        "APP_NAME": "helloworld-uat",
+        "APP_SLUG": "helloworld-uat",
+        "APP_CONFIG_BACKEND_API": "https://apiuat.helloworld.com/api/v1",
+        "EXPO_ACCOUNT_OWNER": "@rashmiranjan.indianic"
+      }
+    },
+    "development": {
+      "node": "16.14.2",
+      "releaseChannel": "development",
+      "developmentClient": false,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "cocoapods": "1.11.2"
+      },
+      "cache": {
+        "key": "development-v45-a"
+      },
+      "env": {
+        "VERSION": "1.0.0",
+        "IOS_BUNDLE_IDENTIFIER": "com.helloworld.helloworldtesting",
+        "IOS_BUILD_NUMBER": "1",
+        "ANDROID_PACKAGE": "com.helloworld.helloworldtesting",
+        "ANDROID_VERSION_CODE": "1",
+        "GOOGLE_SERVICES_FILE": "google-services.json",
+        "APP_NAME": "helloworld",
+        "APP_SLUG": "helloworld",
+        "APP_CONFIG_BACKEND_API": "https://helloworld.com/api/v1",
+        "EXPO_ACCOUNT_OWNER": "@rashmiranjan.indianic"
+      }
+    },
+    "local": {
+      "extends": "uat",
+      "developmentClient": true,
+      "releaseChannel": "rashmi-singular-one",
+      "distribution": "internal",
+      "android": { "buildType": "apk" }
+    },
+    "local-simulator": {
+      "extends": "development",
+      "developmentClient": true,
+      "releaseChannel": "local",
+      "ios": {
+        "simulator": true
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./google-service-account-key.json",
+        "track": "internal",
+        "releaseStatus": "draft"
+      },
+      "ios": {
+        "ascAppId": "1385127715",
+        "appleTeamId": "6R4MZ3RDFH",
+        "bundleIdentifier": "com.helloworld.helloworld"
+      }
+    },
+    "uat": {
+      "android": {
+        "serviceAccountKeyPath": "./google-service-account-key.json",
+        "track": "internal",
+        "releaseStatus": "draft"
+      },
+      "ios": {
+        "ascAppId": "1385127715",
+        "appleTeamId": "6R4MZ3RDFH",
+        "bundleIdentifier": "com.helloworld.uat"
+      }
+    }
+  }
+}
