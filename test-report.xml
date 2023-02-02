@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\hooks\tests\colorScheme.test.ts">
+    <testCase name="colorScheme returns the expected values" duration="3"/>
+  </file>
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\Views\tests\ThemedView.test.tsx">
+    <testCase name="ThemedView Renders Snapshot" duration="11"/>
+  </file>
   <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\screens\tests\WelcomeScreen.test.tsx">
-    <testCase name="WelcomeScreen Snapshot Renders on light theme" duration="10"/>
+    <testCase name="WelcomeScreen Snapshot Renders on light theme" duration="12"/>
     <testCase name="WelcomeScreen Snapshot Renders on dark theme" duration="2"/>
+  </file>
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\tests\Text.test.tsx">
+    <testCase name="Text Renders Snapshot" duration="11"/>
+  </file>
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\Views\tests\SafeAreaThemedView.test.tsx">
+    <testCase name="SafeAreaThemedView Renders Snapshot" duration="11"/>
   </file>
 </testExecutions>
