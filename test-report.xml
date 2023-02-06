@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\redux\auth\tests\authSelectors.test.ts">
+    <testCase name="authSelectors should loading return true" duration="2"/>
+    <testCase name="authSelectors should loading return false" duration="0"/>
+  </file>
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\redux\auth\tests\authSlice.test.ts">
+    <testCase name="authSlice should create an action to add auth" duration="2"/>
+    <testCase name="authSlice should update the loading state" duration="0"/>
+  </file>
   <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\hooks\tests\colorScheme.test.ts">
     <testCase name="colorScheme returns the expected values" duration="3"/>
   </file>
   <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\Views\tests\ThemedView.test.tsx">
-    <testCase name="ThemedView Renders Snapshot" duration="11"/>
+    <testCase name="ThemedView Renders Snapshot" duration="12"/>
+  </file>
+  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\tests\Text.test.tsx">
+    <testCase name="Text Renders Snapshot" duration="11"/>
   </file>
   <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\screens\tests\WelcomeScreen.test.tsx">
     <testCase name="WelcomeScreen Snapshot Renders on light theme" duration="12"/>
     <testCase name="WelcomeScreen Snapshot Renders on dark theme" duration="2"/>
-  </file>
-  <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\tests\Text.test.tsx">
-    <testCase name="Text Renders Snapshot" duration="11"/>
   </file>
   <file path="C:\Users\Fraeloth\Desktop\Fraeloth\Code\Indianic\Expo\HelloWorldExpo\src\components\Views\tests\SafeAreaThemedView.test.tsx">
     <testCase name="SafeAreaThemedView Renders Snapshot" duration="11"/>

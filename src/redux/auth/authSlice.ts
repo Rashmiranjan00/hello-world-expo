@@ -19,9 +19,9 @@ export const authSlice = createSlice({
         ...state,
         refreshToken: action.payload.refreshToken,
         user: {
-          email: action.payload.email,
-          firstName: action.payload.firstName,
-          lastName: action.payload.lastName
+          email: action.payload.user.email,
+          firstName: action.payload.user.firstName,
+          lastName: action.payload.user.lastName
         }
       };
     },
